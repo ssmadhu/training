@@ -1,0 +1,9 @@
+ <div>
+   <h3> Use the form to add an {{item}}</h3>
+ </div>
+ <div>
+   <label>Enter a todo</label>
+   <input [(ngModel)]="newItem" />
+ </div>
+ <button  (click)="add($event)" class="button" type="submit">Add</button>
+ <!-- </form> -->
